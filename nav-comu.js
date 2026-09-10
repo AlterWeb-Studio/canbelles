@@ -8,20 +8,18 @@
 class NavComu extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-            <div class="franja-superior">
-                <a href="tel:${CONFIG.TELEFON}">${CONFIG.TL} ${CONFIG.TELEFON}</a>
-                <a href="mailto:${CONFIG.EMAIL}">${CONFIG.EM} ${CONFIG.EMAIL}</a>
-            </div>
+
             <nav class="navbar">
                 <div class="navbar-logo">
                     <img src="${CONFIG.ASSETS}${CONFIG.LOGO_T}" alt="${CONFIG.NOM}">
                 </div>
                 <button class="navbar-hamburguesa">☰</button>
                 <ul class="navbar-menu">
-                    <li><a href="#inici">${CONFIG.NAV_INI}</a></li>
-                    <li><a href="#qui-som">${CONFIG.NAV_NOS}</a></li>
-                    <li><a href="#serveis">${CONFIG.NAV_SER}</a></li>
-                    <li><a href="#contacte">${CONFIG.NAV_CON}</a></li>
+                    <li><a href="#inici">${CONFIG.NAV_INICI}</a></li>
+                    <li><a href="#menus">${CONFIG.NAV_MENUS}</a></li>
+                    <li><a href="#carta">${CONFIG.NAV_CARTA}</a></li>
+                    <li><a href="#vins">${CONFIG.NAV_VINS}</a></li>
+                    <li><a href="#reserves">${CONFIG.NAV_RESERVES}</a></li>
                 </ul>
             </nav>
         `;

@@ -5,7 +5,7 @@ const CONFIG = {
     NOM:            "Can Bellès",
     LOGO:           "logo/logoBLL.png",
     LOGO_T:         "logo/logoBLL.png",
-    SLOGAN:         "Especialistas en motos. Sabadell.",
+    SLOGAN:         "CUINA TRADICIONAL MEDITERRÀNIA",
     TELEFON:        "938174363",            TELEFON_LABEL:   "Teléfono",     TELEFON_ICO: "📞",
     MOBIL:          "",
     WHATSAPP:       "https://wa.me/",       WHATSAPP_LABEL:  "💬 Escríbenos por WhatsApp",
@@ -27,18 +27,18 @@ const CONFIG = {
 
     // 3. IMATGES 
     BACKGROUND:      "", // ← canviar en el css .html{}
-    BLOC_HERO:       "images/belles/hero-belles.webp", 
+    BLOC_HERO:       "images/belles/hero-belles.png", 
     QR:              "qr/qr-belles.png",
     //-------------------------------------------------------------------------------------------------------------------------
 
 
 
     // 4. TEXTOS---------------------------------------------------------------------------------------------------------------
-    NAV_INI:        "Inici",
-    NAV_NOS:        "Nosaltres",
-    NAV_SER:        "Servicios",
-    NAV_PXQ:        "¿Por qué AMR?",
-    NAV_CON:        "Contacto",
+    NAV_INICI:        "Inici",
+    NAV_MENUS:        "Menús",
+    NAV_CARTA:        "Carta",
+    NAV_VINS:         "Vins i Caves",
+    NAV_RESERVES:     "Reserves",
 
     HERO_BOTO_PRI:      "📞 Llámanos",
     HERO_BOTO_SEC:      "Nuestros servicios",
