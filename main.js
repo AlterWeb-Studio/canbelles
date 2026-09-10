@@ -7,25 +7,25 @@
 
     const inicialitzar = async () => {
 
-        /* ── 1. NAVBAR ─────────────────────────────────────── 
-        const navbar = document.getElementById('navbar');
-        if (navbar) {
-            navbar.innerHTML = `
-                <nav class="navbar">
-                    <div class="navbar-logo">
-                        <img src="${CONFIG.ASSETS}${CONFIG.LOGO_T}" alt="${CONFIG.NOM}">
-                    </div>
-                    <button class="navbar-hamburguesa">☰</button>
-                    <ul class="navbar-menu">
-                        <li><a href="#inici">${CONFIG.NAV_INI}</a></li>
-                        <li><a href="#qui-som">${CONFIG.NAV_NOS}</a></li>
-                        <li><a href="#serveis">${CONFIG.NAV_SER}</a></li>
-                        <li><a href="#perque">${CONFIG.NAV_PXQ}</a></li>
-                        <li><a href="#contacte">${CONFIG.NAV_CON}</a></li>
-                    </ul>
-                </nav>
-            `;
-        }*/
+                                    /* ── 1. NAVBAR ─────────────────────────────────────── 
+                                    const navbar = document.getElementById('navbar');
+                                    if (navbar) {
+                                        navbar.innerHTML = `
+                                            <nav class="navbar">
+                                                <div class="navbar-logo">
+                                                    <img src="${CONFIG.ASSETS}${CONFIG.LOGO_T}" alt="${CONFIG.NOM}">
+                                                </div>
+                                                <button class="navbar-hamburguesa">☰</button>
+                                                <ul class="navbar-menu">
+                                                    <li><a href="#inici">${CONFIG.NAV_INI}</a></li>
+                                                    <li><a href="#qui-som">${CONFIG.NAV_NOS}</a></li>
+                                                    <li><a href="#serveis">${CONFIG.NAV_SER}</a></li>
+                                                    <li><a href="#perque">${CONFIG.NAV_PXQ}</a></li>
+                                                    <li><a href="#contacte">${CONFIG.NAV_CON}</a></li>
+                                                </ul>
+                                            </nav>
+                                        `;
+                                    }*/
 
                 /* ── 1. NAVBAR 2.0─────────────────────────────────────── */
         const navbar2 = document.getElementById('navbar2');
