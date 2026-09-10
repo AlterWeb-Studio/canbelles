@@ -1,0 +1,105 @@
+const CONFIG = {
+
+    // 1. NEGOCI
+    COOK:           "cookies_belles",
+    NOM:            "Can Bellès",
+    LOGO:           "logo/logoBLL.png",
+    LOGO_T:         "logo/logoBLL.png",
+    SLOGAN:         "Especialistas en motos. Sabadell.",
+    TELEFON:        "938174363",            TELEFON_LABEL:   "Teléfono",     TELEFON_ICO: "📞",
+    MOBIL:          "",
+    WHATSAPP:       "https://wa.me/",       WHATSAPP_LABEL:  "💬 Escríbenos por WhatsApp",
+    EMAIL:          "info@canbelles.com",   EMAIL_LABEL:     "e-Mail",       EMAIL_ICO: "✉️",
+    ADRECA:         "C/Amalia Soler, 179  08720  Vilafranca del Penedès",
+                                            ADRECA_LABEL: "Dirección",       ADRECA_ICO: "📍",
+    INSTAGRAM:      "https://www.instagram.com/canbelles/",
+    FACEBOOK:       "",
+    EMAIL_SUPORT:   "info@alterwebstudio.com",
+
+    // 2. RUTES
+    REPO_URL:       "https://altervector.github.io/amrmotorbike/",
+    BASE_URL:       "./",
+    BASE_WORKER:    "https://belles.altervector.workers.dev",
+    URL_OFICIAL:    "https://www.canbelles.com",
+    ASSETS:         "https://avsets.pages.dev/",
+    URL_MAPS:       "https://goo.gl/maps/gyQ2EcbeZWgQyzmn6",
+    URL_RESSENYES:  "https://g.page/r/gyQ2EcbeZWgQyzmn6/review",
+
+    // 3. IMATGES 
+    BACKGROUND:      "", // ← canviar en el css .html{}
+    BLOC_HERO:       "images/belles/hero-belles.webp", 
+    QR:              "qr/qr-belles.png",
+    //-------------------------------------------------------------------------------------------------------------------------
+
+
+
+    // 4. TEXTOS---------------------------------------------------------------------------------------------------------------
+    NAV_INI:        "Inici",
+    NAV_NOS:        "Nosaltres",
+    NAV_SER:        "Servicios",
+    NAV_PXQ:        "¿Por qué AMR?",
+    NAV_CON:        "Contacto",
+
+    HERO_BOTO_PRI:      "📞 Llámanos",
+    HERO_BOTO_SEC:      "Nuestros servicios",
+
+    ANYS_EXPERIENCIA:   "+20",    ANYS_EXPERIENCIA2:   "Años de experiencia",
+    MOTOS_REPARADES:    "+2.000", MOTOS_REPARADES2:    "Motos reparadas",
+    CLIENTS:            "+1.200", CLIENTS2:            "Clientes satisfechos",
+    ESTRELLES:          "5",      ESTRELLES2:          "Valoración en Google",
+
+    QUI_SOM:            "Quiénes somos...",
+    QUI_SOM_TIT:        "Pasión por las motos desde hace más de 20 años",
+    QUI_DESC:           "En el Taller AMR MotorBike somos especialistas en mantenimiento, reparación y restauración de motocicletas. Más de 20 años de experiencia en varias marcas del sector y en Sabadell, cuidando tu moto con la misma pasión con la que la conduces. Trabajamos con todas las marcas y modelos, desde scooters hasta motos de gran cilindrada.",
+    //+hero boto pri
+    //-------------------------------------------------------------------------------------------------------------------------
+
+
+
+    // 5. SERVEIS (graella)
+    QUE_FEM:            "Lo que hacemos",
+    QUE_FEM_SRV:        "Nuestros servicios",
+
+    SERVEIS: [
+        { ico: "🔧", titol: "Mantenimiento general",    desc: "Cambio de aceite y filtro, limpieza de sistemas de admisión, ajustes y reglajes." },
+        { ico: "🛑", titol: "Frenos",                   desc: "Cambio de pastillas y discos de freno, mordazas, limpiezas circuito y cambio de líquidos." },
+        { ico: "⛓️", titol: "Transmisión y cadena",     desc: "Ajuste y lubricación de cadena, cambio del kit de arrastre y revisión de la caja de velocidades." },
+        { ico: "⚡", titol: "Sistema eléctrico",        desc: "Revisión y cambio de batería, diagnóstico con escáner ECU y reparación de luces y conexiones." },
+        { ico: "🏍️", titol: "Suspensión y dirección",   desc: "Servicio de suspensión delantera, ajuste de dirección y revisión de rodamientos y amortiguadores." },
+        { ico: "💨", titol: "Sistema de escape",        desc: "Revisión de fugas, reparación e instalación de escapes deportivos o personalizados." },
+        { ico: "🔘", titol: "Neumáticos",               desc: "Cambio de llantas, equilibrado, alineación y reparación de pinchazos." },
+        { ico: "⚙️", titol: "Motor",                    desc: "Ajuste general, reparaciones de todo tipos, fugas y reglajes, reparación de cilindro, pistón, válvulas y ajuste de distribución." },
+        { ico: "🎨", titol: "Personalización",          desc: "Instalación de accesorios." },
+    ],
+    //-------------------------------------------------------------------------------------------------------------------------
+
+
+
+    // 6. PERQUE--------------------------------------------------------------------------------------------------------------
+    PXQ:        "¿ Por qué AMR MotorBike ?",
+    PXQ_DESC:   "El taller que tu moto se merece",
+
+    PXQ_BLOC1_TIT:          "Diagnóstico rápido",                    PXQ_BLOC1_emo:"⚡",
+    PXQ_BLOC1_DESC:         "Detectamos el problema en el mismo día y te informamos antes de tocar nada.",
+
+    PXQ_BLOC2_TIT:          "Recambios de calidad",                  PXQ_BLOC2_emo:"🔩",
+    PXQ_BLOC2_DESC:         "Trabajamos con piezas originales o equivalentes homologadas, nunca piezas dudosas.",
+
+    PXQ_BLOC3_TIT:          "Moto de cortesía",                      PXQ_BLOC3_emo:"🏍️",
+    PXQ_BLOC3_DESC:         "Si la reparación se alarga, te dejamos una moto para seguir rodando sin interrupciones.",
+    //-------------------------------------------------------------------------------------------------------------------------
+
+
+    // 7. ON SOM-----------------------------------------------------------------------------------------------------------   
+    ON_SOM:            "Dónde estamos...",
+    ON_SOM_TIT:        "Ven a vernos",
+    
+    HORA_0:         "Horario",   HR: "🕐",
+    HORA_1:         "Lunes a Jueves: 8:30 – 13:00 | 15:00 – 18:00",
+    HORA_2:         "Viernes: 08:30 – 16:00",
+    HORA_3:         "Sábado y Domingo: Cerrado",
+    //-------------------------------------------------------------------------------------------------------------------------
+
+    // 6. SEGURETAT
+    SITIOS_SEGUROS: ["alterwebstudio.com", "altervector.com", "pages.dev", "altervector.github.io", "amrmotorbike.es","amrmotorbike.com", "localhost", "127.0.0.1"],
+};
