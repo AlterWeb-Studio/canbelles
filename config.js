@@ -67,11 +67,11 @@ const CONFIG = {
     //-------------------------------------------------------------------------------------------------------------------------
 
     MENUS_CANBELLES: [
-        { titol: "La nostra Carta",          img: "images/belles/carta.png",       accio: "obrirModalCarta()" },
-        { titol: "Els nostres Vins i Caves", img: "images/belles/vins.jpg",        accio: "obrirModalVins()" },
-        { titol: "Menú Diari",               img: "images/belles/carta.png",       accio: "obrirModalMenuDiari()" },
-        { titol: "Menú Cap de Setmana",      img: "images/belles/menucds.png",     accio: "obrirModalMenuCDS()" },
-        { titol: "Menús per a Grups",        img: "images/belles/menugrups.png",   accio: "obrirModalMenuGrups()" },
+        { titol: "La nostra Carta",          desc: "",                                                                                                          img: "images/belles/carta.png",       accio: "obrirModalCarta()" },
+        { titol: "Els nostres Vins i Caves", desc: "",                                                                                                          img: "images/belles/vins.jpg",        accio: "obrirModalVins()" },
+        { titol: "Menú Diari",               desc: "De dilluns a divendres, de 13:00h a 15:30h, oferim un menú diari variat amb productes de temporada. Primer plat, segon plat i postres amb begudes i pa inclosos.", img: "images/belles/carta.png",       accio: "obrirModalMenuDiari()" },
+        { titol: "Menú Cap de Setmana",      desc: "Dissabtes de 13:00h fins a les 15:30h. Divendres i dissabtes de 20:45h fins a les 23:30h.",                  img: "images/belles/menucds.png",     accio: "obrirModalMenuCDS()" },
+        { titol: "Menús per a Grups",        desc: "A Can Bellés disposem de menús per a grups de totes les mides que s'adapten a les seves necessitats.",       img: "images/belles/menugrups.png",   accio: "obrirModalMenuGrups()" },
     ],
 
     CAPTURES: {
@@ -85,24 +85,9 @@ const CONFIG = {
 
 
 
-    // 6. PERQUE--------------------------------------------------------------------------------------------------------------
-    PXQ:        "¿ Por qué AMR MotorBike ?",
-    PXQ_DESC:   "El taller que tu moto se merece",
-
-    PXQ_BLOC1_TIT:          "Diagnóstico rápido",                    PXQ_BLOC1_emo:"⚡",
-    PXQ_BLOC1_DESC:         "Detectamos el problema en el mismo día y te informamos antes de tocar nada.",
-
-    PXQ_BLOC2_TIT:          "Recambios de calidad",                  PXQ_BLOC2_emo:"🔩",
-    PXQ_BLOC2_DESC:         "Trabajamos con piezas originales o equivalentes homologadas, nunca piezas dudosas.",
-
-    PXQ_BLOC3_TIT:          "Moto de cortesía",                      PXQ_BLOC3_emo:"🏍️",
-    PXQ_BLOC3_DESC:         "Si la reparación se alarga, te dejamos una moto para seguir rodando sin interrupciones.",
-    //-------------------------------------------------------------------------------------------------------------------------
-
-
     // 7. ON SOM-----------------------------------------------------------------------------------------------------------   
-    ON_SOM:            "Dónde estamos...",
-    ON_SOM_TIT:        "Ven a vernos",
+    ON_SOM:            "On som...",
+    ON_SOM_TIT:        "T'esperem a ",
     
     HORA_0:         "Horario",   HR: "🕐",
     HORA_1:         "Lunes a Jueves: 8:30 – 13:00 | 15:00 – 18:00",

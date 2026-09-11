@@ -122,7 +122,10 @@
             const cardsMenus = CONFIG.MENUS_CANBELLES.map(m => `
                 <div class="servei-card" onclick="${m.accio}" style="cursor:pointer; padding:0; overflow:hidden;">
                     <img src="${CONFIG.ASSETS}${m.img}" alt="${m.titol}" style="width:100%; height:160px; object-fit:cover; display:block;">
-                    <div class="servei-titol" style="padding:14px 16px 16px;">${m.titol}</div>
+                    <div style="padding:14px 16px 16px;">
+                        <div class="servei-titol">${m.titol}</div>
+                        ${m.desc ? `<div class="servei-desc">${m.desc}</div>` : ''}
+                    </div>
                 </div>
             `).join('');
 
@@ -130,7 +133,7 @@
 
                 <!-- QUI SOM -->
                 <section class="seccio" id="qui-som">
-                    <p class="seccio-eyebrow">${CONFIG.QUI_SOM}</p>
+                    <h2 class="seccio-titol">${CONFIG.QUI_SOM}</h2>
                     <p class="seccio-text">${CONFIG.QUI_DESC1}</p>
                     <p class="seccio-text">${CONFIG.QUI_DESC2}</p>
                     <p class="seccio-text">
@@ -146,7 +149,7 @@
                 <hr class="separador">
 
                 <!-- SERVEIS -->
-                <section class="seccio" id="serveis">
+                <section class="seccio" id="menus">
                     <h2 class="seccio-titol">${CONFIG.QUE_FEM_SRV}</h2>
                     <p class="seccio-text">${CONFIG.QUE_FEM1}</p>
                     <p class="seccio-text">${CONFIG.QUE_FEM2}</p>
@@ -158,67 +161,22 @@
                 <hr class="separador">
 
                 <!-- PER QUÈ NOSALTRES -->
-                <section class="seccio" id="perque">
-                    <p class="seccio-eyebrow">${CONFIG.PXQ}</p>
-                    <h2 class="seccio-titol">${CONFIG.PXQ_DESC}</h2>
-                    <div class="perque-grid">
-                        <div class="perque-item">
-                            <div class="perque-ico">${CONFIG.PXQ_BLOC1_emo}</div>
-                            <div>
-                                <div class="perque-titol">${CONFIG.PXQ_BLOC1_TIT}</div>
-                                <div class="perque-desc">${CONFIG.PXQ_BLOC1_DESC}</div>
-                            </div>
-                        </div>
-                        <div class="perque-item">
-                            <div class="perque-ico">${CONFIG.PXQ_BLOC2_emo}</div>
-                            <div>
-                                <div class="perque-titol">${CONFIG.PXQ_BLOC2_TIT}</div>
-                                <div class="perque-desc">${CONFIG.PXQ_BLOC2_DESC}</div>
-                            </div>
-                        </div>
-                        <div class="perque-item">
-                            <div class="perque-ico">${CONFIG.PXQ_BLOC3_emo}</div>
-                            <div>
-                                <div class="perque-titol">${CONFIG.PXQ_BLOC3_TIT}</div>
-                                <div class="perque-desc">${CONFIG.PXQ_BLOC3_DESC}</div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+
               <hr class="separador">
 
-<div class="marquee">
-    <div class="marquee-track">
-        <span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/yamaha.png" alt="Yamaha"></span><span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/bmw.png" alt="bmw"></span>
-        <span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/honda.png" alt="honda"></span><span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/zontes.png" alt="zontes"></span>
-        <span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/kawasaki.png" alt="kawasaki"></span><!--span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/Harley_davidson.jpg" alt="harley"></span-->
-        <span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/Benelli.png" alt="benelli"></span><span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/ducati.png" alt="ducati"></span>
-        <span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/Moto_Guzzi.png" alt="MotoGuzzi"></span><span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/suzuki.png" alt="suzuki"></span>
-        <span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/voge.png" alt="voge"></span><span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/aprilia.jpg" alt="Aprilia"></span>
-        <span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/ktm.png" alt="KTM"></span><span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/triumph.jpg" alt="Triumph"></span>
 
-        <span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/yamaha.png" alt="Yamaha"></span><span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/bmw.png" alt="bmw"></span>
-        <span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/honda.png" alt="honda"></span><span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/zontes.png" alt="zontes"></span>
-        <span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/kawasaki.png" alt="kawasaki"></span><!--span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/Harley_davidson.jpg" alt="harley"></span-->
-        <span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/Benelli.png" alt="benelli"></span><span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/ducati.png" alt="ducati"></span>
-        <span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/Moto_Guzzi.png" alt="MotoGuzzi"></span><span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/suzuki.png" alt="suzuki"></span>
-        <span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/voge.png" alt="voge"></span><span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/aprilia.jpg" alt="Aprilia"></span>
-        <span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/ktm.png" alt="KTM"></span><span><img src="${CONFIG.ASSETS}images/amrmotorbike/marques/triumph.jpg" alt="Triumph"></span>
-    </div>
-</div>
 
 
                 <hr class="separador">
 
                 <!-- CONTACTE -->
                 <section class="seccio" id="contacte">
-                    <p class="seccio-eyebrow">${CONFIG.ON_SOM}</p>
                     <h2 class="seccio-titol">${CONFIG.ON_SOM_TIT}</h2>
                     <div class="contacte-grid">
                         <div class="contacte-item">
-                            <div class="contacte-ico">${CONFIG.AD}</div>
+                            <div class="contacte-ico">${CONFIG.ADRECA_ICO}</div>
                             <div>
-                                <div class="contacte-label">${CONFIG.ADRECALBL}</div>
+                                <div class="contacte-label">${CONFIG.ADRECA_LABEL}</div>
                                 <div class="contacte-valor">
                                     <a href="${CONFIG.URL_MAPS}" target="_blank">${CONFIG.ADRECA} (Maps)</a>
                                 </div>
