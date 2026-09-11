@@ -6,15 +6,16 @@ const CONFIG = {
     LOGO:           "logo/logoBLL.png",
     LOGO_T:         "logo/logoBLL.png",
     SLOGAN:         "CUINA TRADICIONAL MEDITERRÀNIA",
-    TELEFON:        "938174363",            TELEFON_LABEL:   "Teléfono",     TELEFON_ICO: "📞",
+    TELEFON:        "938174363",            TELEFON_LABEL:   "Telèfon",     TELEFON_ICO: "📞",
     MOBIL:          "",
     WHATSAPP:       "https://wa.me/",       WHATSAPP_LABEL:  "💬 Escríbenos por WhatsApp",
     EMAIL:          "info@canbelles.com",   EMAIL_LABEL:     "e-Mail",       EMAIL_ICO: "✉️",
     ADRECA:         "C/Amalia Soler, 179  08720  Vilafranca del Penedès",
-                                            ADRECA_LABEL: "Dirección",       ADRECA_ICO: "📍",
+                                            ADRECA_LABEL: "Adreça",       ADRECA_ICO: "📍",
     INSTAGRAM:      "https://www.instagram.com/canbelles/",
     FACEBOOK:       "",
     EMAIL_SUPORT:   "info@alterwebstudio.com",
+    //-------------------------------------------------------------------------------------------------------------------------
 
     // 2. RUTES
     REPO_URL:       "https://altervector.github.io/amrmotorbike/",
@@ -31,8 +32,6 @@ const CONFIG = {
     QR:              "qr/qr-belles.png",
     //-------------------------------------------------------------------------------------------------------------------------
 
-
-
     // 4. TEXTOS---------------------------------------------------------------------------------------------------------------
     NAV_INICI:        "Inici",
     NAV_MENUS:        "Menús",
@@ -42,30 +41,19 @@ const CONFIG = {
 
     HERO_BOTO:      "Qui som...",
 
-    ANYS_EXPERIENCIA:   "+20",    ANYS_EXPERIENCIA2:   "Años de experiencia",
-    MOTOS_REPARADES:    "+2.000", MOTOS_REPARADES2:    "Motos reparadas",
-    CLIENTS:            "+1.200", CLIENTS2:            "Clientes satisfechos",
-    ESTRELLES:          "5",      ESTRELLES2:          "Valoración en Google",
-
     QUI_SOM:            "Qui som...",
     QUI_DESC1:          "Can Bellés és el fruit del projecte d'una empresa familiar que va obrir les portes l'any 2007 amb l'objectiu d'oferir als nostres clients un menjar de qualitat en un ambient agradable.",
     QUI_DESC2:          "En la nostra carta trobareu plats típics de la cuina casolana mediterrània, que imprimeixen el caràcter de les nostres tapes, arrossos, carns i peixos a la brasa i les nostres postres casolanes.",
     QUI_DESC3:          "Si ens vols venir a conéixer, estem al carrer",
     //-------------------------------------------------------------------------------------------------------------------------
 
-
     // 5. SERVEIS (graella)
     QUE_FEM_SRV:        "La nostra cuina..",
     QUE_FEM1:            "Des de el nostre petit racó al cor del Penedès, a Can Bellés fem una aposta clara per la cuina tradicional catalana i el producte de proximitat.",
     QUE_FEM2:            "Amb la cuina de brasa com a bandera, oferim als nostres comensals una experiència gastronòmica de sabors arrelats a la nostra tradició.",
-
- 
-
-
-
-
     //-------------------------------------------------------------------------------------------------------------------------
 
+    // 6. MAPS MENUS-------------------------------------------------------------------------------------------------------------------------
     MENUS_CANBELLES: [
         { titol: "La nostra Carta",          desc: "",                                                                                                          img: "images/belles/carta.png",       accio: "obrirModalCarta()" },
         { titol: "Els nostres Vins i Caves", desc: "",                                                                                                          img: "images/belles/vins.jpg",        accio: "obrirModalVins()" },
@@ -81,20 +69,18 @@ const CONFIG = {
         menuCDS:   "images/canbelles/captura-menu-cds.jpg",
         menuGrups: "images/canbelles/captura-menu-grups.jpg",
     },
-    //-------------------------------------------------------------------------------------------------------------------------
-
-
+    //------------------------------------------------------------------------------------------------------------------------
 
     // 7. ON SOM-----------------------------------------------------------------------------------------------------------   
     ON_SOM:            "On som...",
     ON_SOM_TIT:        "T'esperem a ",
     
-    HORA_0:         "Horario",   HR: "🕐",
-    HORA_1:         "Lunes a Jueves: 8:30 – 13:00 | 15:00 – 18:00",
-    HORA_2:         "Viernes: 08:30 – 16:00",
-    HORA_3:         "Sábado y Domingo: Cerrado",
+    HORA_0:         "Horari",   HR: "🕐",
+    HORA_1:         "De dilluns a dissabte de 13:00h a 15:30h.",
+    HORA_2:         "Divendres i dissabte de  13:00h a 15:30h - 20:45 a 23:30h",
+    HORA_3:         "Diumenge: Tancat",
     //-------------------------------------------------------------------------------------------------------------------------
 
-    // 6. SEGURETAT
+    // 8. SEGURETAT
     SITIOS_SEGUROS: ["alterwebstudio.com", "altervector.com", "pages.dev", "altervector.github.io", "amrmotorbike.es","amrmotorbike.com", "localhost", "127.0.0.1"],
 };

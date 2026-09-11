@@ -142,11 +142,9 @@
                     </p>
                     <a href="tel:${CONFIG.TELEFON}" class="hero-boto-principal btn-balla"
                         style="display:inline-block; margin-top: 8px;">
-                        ${CONFIG.TELEFON_ICO} ${CONFIG.TELEFON}
+                        ${CONFIG.TELEFON_ICO} Trucan's}
                     </a>
                 </section>
-
-                <hr class="separador">
 
                 <!-- SERVEIS -->
                 <section class="seccio" id="menus">
@@ -158,16 +156,6 @@
                     </div>
                 </section>
 
-                <hr class="separador">
-
-                <!-- PER QUÈ NOSALTRES -->
-
-              <hr class="separador">
-
-
-
-
-                <hr class="separador">
 
                 <!-- CONTACTE -->
                 <section class="seccio" id="contacte">
@@ -183,19 +171,19 @@
                             </div>
                         </div>
                         <div class="contacte-item">
-                            <div class="contacte-ico">${CONFIG.TL}</div>
+                            <div class="contacte-ico">${CONFIG.TELEFON_ICO}</div>
                             <div>
-                                <div class="contacte-label">${CONFIG.TELEFONLBL}</div>
+                                <div class="contacte-label">${CONFIG.TELEFON_LABEL}</div>
                                 <div class="contacte-valor">
-                                    <a href="tel:+34${CONFIG.MOBIL}">${CONFIG.TELEFON}</a>
+                                    <a href="tel:${CONFIG.TELEFON}">${CONFIG.TELEFON}</a>
                                     
                                 </div>
                             </div>
                         </div>
                         <div class="contacte-item">
-                            <div class="contacte-ico">${CONFIG.EM}</div>
+                            <div class="contacte-ico">${CONFIG.EMAIL_ICO}</div>
                             <div>
-                                <div class="contacte-label">${CONFIG.EMAILLBL}</div>
+                                <div class="contacte-label">${CONFIG.EMAIL_LABEL}</div>
                                 <div class="contacte-valor">
                                     <a href="mailto:${CONFIG.EMAIL}">${CONFIG.EMAIL}</a>
                                 </div>
@@ -213,11 +201,6 @@
                             </div>
                         </div>
                     </div>
-                    <a href="${CONFIG.WHATSAPP}" target="_blank" class="boto-whatsapp btn-balla">
-                       ${CONFIG.WHATSAPPLBL}
-                    </a>
-                                    <a href="form-contacte.html" class="boto-whatsapp">Formulario de Contacto</a>
-
                 </section>
             `;
         }
@@ -237,14 +220,9 @@
                             <img src="${CONFIG.ASSETS}icon/Icoinsta.png" alt="Instagram" class="icona-app"> Instagram
                         </a>
 
-
-                        
-
-
                         <a href="${CONFIG.URL_RESSENYES}" target="_blank">
                                 <img src="${CONFIG.ASSETS}icon/google.png" alt="Google" class="icona-app">Google (Reseñas)
                         </a>
-
 
                     </div>
                             <p class="footer-qr">
