@@ -40,8 +40,7 @@ const CONFIG = {
     NAV_VINS:         "Vins i Caves",
     NAV_RESERVES:     "Reserves",
 
-    HERO_BOTO_PRI:      "📞 Llámanos",
-    HERO_BOTO_SEC:      "Nuestros servicios",
+    HERO_BOTO:      "Qui som...",
 
     ANYS_EXPERIENCIA:   "+20",    ANYS_EXPERIENCIA2:   "Años de experiencia",
     MOTOS_REPARADES:    "+2.000", MOTOS_REPARADES2:    "Motos reparadas",

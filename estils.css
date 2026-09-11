@@ -1,22 +1,14 @@
 /* ============================================================
-   ESTILS.CSS — AMR MotorBike
-   Paleta: negre industrial + taronja motor + gris acer
+   ESTILS.CSS
    ============================================================ */
 
 /* ─── FONT ────────────────────────────────────────────────── */
 @font-face {
-    font-family: 'Comfortaa';
-    src: url('https://avsets.pages.dev/fonts/Comfortaa-Bold.ttf') format('truetype');
+    font-family: 'Miracle';
+    src: url('https://avsets.pages.dev/fonts/Miracle History.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
-@font-face {
-    font-family: 'airstrike';
-    src: url('https://avsets.pages.dev/fonts/airstrike.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-}
-
 
 
 /* ─── VARIABLES ───────────────────────────────────────────── */
@@ -31,10 +23,10 @@
     --gris-clar:     #d4d4d4;
     --blanc:         #ffffff;
     --blanc-transp:  rgba(255,255,255,0.12);
-    --vermell:        #e53012;
-    --fucsia:        #800699;
+    --fucsia-clar:        #BE40E9;
+    --fucsia:        #B927D6;
 
-    --font-titol:    'Comfortaa', sans-serif;
+    --font-titol:    'Miracle', sans-serif;
     --font-titol2:    'airstrike', sans-serif;
     --font-cos:      'Segoe UI', Roboto, sans-serif;
 
@@ -98,7 +90,7 @@ a:hover { text-decoration: underline; }
 }
 
 .navbar-logo img {
-    height: 90px;
+    height: 80px;
     width: auto;
 }
 
@@ -106,7 +98,7 @@ a:hover { text-decoration: underline; }
     background: none;
     border: none;
     color: var(--blanc);
-    font-size: 26px;
+    font-size: 22px;
     cursor: pointer;
     line-height: 1;
     padding: 4px;
@@ -153,8 +145,8 @@ a:hover { text-decoration: underline; }
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* text a l'esquerra */
-    text-align: left;
+    justify-content: center; 
+    text-align: center;
 }
 
 .hero-imatge {
@@ -188,57 +180,29 @@ a:hover { text-decoration: underline; }
     margin-top: 60px; /* compensa la navbar */
 }
 
-                    /* Eyebrow — etiqueta petita sobre el títol */
-                    .hero-eyebrow {
-                        display: inline-block;
-                        background: var(--taronja);
-                        color: var(--blanc);
-                        font-size: 10px;
-                        font-weight: 700;
-                        letter-spacing: 3px;
-                        text-transform: uppercase;
-                        padding: 4px 10px;
-                        margin-bottom: 16px;
-                    }
 
-                    .hero-titol {
-                        font-family: var(--font-titol);
-                        font-size: 3.2rem;
-                        font-weight: 800;
-                        line-height: 1.05;
-                        letter-spacing: 1px;
-                        color: var(--blanc);
-                        margin-bottom: 14px;
-                        text-shadow: 0 2px 12px rgba(0,0,0,0.6);
-                    }
-
-                    .hero-slogan {
-                        font-size: 1rem;
-                        color: var(--fucsia);
-                        margin-bottom: 32px;
-                        line-height: 1.5;
-                    }
-
-                                                .hero-pic {
-                                                 border-radius: 14px;
-                                                }    
-.card {
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    background: linear-gradient(
-        135deg,
-        rgba(255, 255, 255, 0.15) 0%,
-        rgba(255, 255, 255, 0.05) 100%
-    );
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    border-radius: 14px;
-    box-shadow: 
-        7px 1px 3px 0px rgba(253, 130, 49, 0.685),
-        11px 9px 28px 0px rgba(102,102,102,0.8);   /* X Y blur ex */
-    transform: rotateX(0deg) rotateY(-30deg);
-    margin-bottom: 82px;
- 
+.hero-titol {
+    font-family: var(--font-titol);
+    font-size: 3.2rem;
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: 1px;
+    color: var(--blanc);
+    margin-bottom: 14px;
+    text-shadow: 0 2px 12px rgba(0,0,0,0.6);
 }
+
+.hero-slogan {
+    font-size: 1rem;
+    color: var(--fucsia);
+    margin-bottom: 32px;
+    line-height: 1.5;
+}
+
+                            .hero-pic {
+                                border-radius: 14px;
+                            }    
+
 
 .hero-botons {
     display: flex;
@@ -248,10 +212,11 @@ a:hover { text-decoration: underline; }
 
 .hero-boto-principal {
     display: inline-block;
-    background: var(--taronja);
+    margin-top: 38px;
+    background: var(--fucsia-clar);
     color: var(--blanc);
-    padding: 14px 28px;
-    font-size: 13px;
+    padding: 10px 28px;
+    font-size: 11px;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -261,62 +226,10 @@ a:hover { text-decoration: underline; }
 }
 
 .hero-boto-principal:hover {
-    background: var(--taronja-fosc);
+    background: var(--fucsia);
     text-decoration: none;
 }
 
-.hero-boto-secundari {
-    display: inline-block;
-    color: var(--gris-clar);
-    border: 1px solid rgba(255,255,255,0.3);
-    padding: 13px 28px;
-    font-size: 13px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    border-radius: var(--radi);
-    transition: border-color 0.2s, color 0.2s;
-    text-align: center;
-}
-
-.hero-boto-secundari:hover {
-    border-color: var(--taronja);
-    color: var(--taronja);
-    text-decoration: none;
-}
-
-/* ─── FRANJA STATS (sota el hero) ────────────────────────── */
-.stats-franja {
-    background: rgba(249,115,22,0.1);
-    border-top: 1px solid rgba(249,115,22,0.3);
-    border-bottom: 1px solid rgba(249,115,22,0.3);
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1px;
-    background-color: rgba(249,115,22,0.2); /* color del separador */
-}
-
-.stat-item {
-    background: var(--negre-suau);
-    padding: 24px 16px;
-    text-align: center;
-}
-
-.stat-numero {
-    font-family: var(--font-titol2);
-    font-size: 2rem;
-    font-weight: 800;
-    color: var(--taronja);
-    line-height: 1;
-}
-
-.stat-label {
-    font-size: 11px;
-    color: var(--gris);
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    margin-top: 6px;
-}
 
 /* ─── SECCIONS GENÈRIQUES ─────────────────────────────────── */
 .seccio {

@@ -87,9 +87,10 @@
                         alt="${CONFIG.NOM}">
                     <div class="hero-overlay"></div>
                     <div class="hero-contingut">
-                        <h1 class="hero-titol">Restaurant ${CONFIG.NOM}</h1>
                         <p class="hero-slogan">${CONFIG.SLOGAN}</p>
-                        <a href="#qui-som" class="hero-boto">${CONFIG.HERO_BOTO}</a>
+                        <h1 class="hero-titol">Restaurant</h1>
+                        <h1 class="hero-titol">${CONFIG.NOM}</h1>
+                        <a href="#qui-som" class="hero-boto-principal">${CONFIG.HERO_BOTO}</a>
                     </div>
                 </section>
             `;
@@ -346,7 +347,7 @@ barraFixa.className = 'barra-fixa-mobil';
 var botoTrucar = document.createElement('a');
 botoTrucar.href = 'tel:' + CONFIG.TELEFON;
 botoTrucar.className = 'boto-fix trucar';
-botoTrucar.textContent = 'Llamar';
+botoTrucar.textContent = 'Reserves';
 
 var botoWhats = document.createElement('a');
 botoWhats.href = CONFIG.WHATSAPP;
@@ -356,7 +357,7 @@ botoWhats.className = 'boto-fix whatsapp';
 botoWhats.textContent = 'WhatsApp';
 
 barraFixa.appendChild(botoTrucar);
-barraFixa.appendChild(botoWhats);
+/*barraFixa.appendChild(botoWhats);*/
 document.body.appendChild(barraFixa);
 
 

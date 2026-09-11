@@ -1,5 +1,5 @@
 /* ============================================================
-   NAV-COMU.JS — Can Bellès
+   NAV-COMU.JS
    Web Component: <nav-comu></nav-comu>
    Fa la franja superior (tel/email) + el navbar.
    Igual a totes les pàgines, es crida amb una sola etiqueta.
