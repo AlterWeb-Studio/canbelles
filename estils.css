@@ -24,7 +24,7 @@
     --blanc:         #ffffff;
     --blanc-transp:  rgba(255,255,255,0.12);
     --fucsia-clar:        #BE40E9;
-    --fucsia:        #B927D6;
+    --fucsia:        #800735;
 
     --font-titol:    'Miracle', sans-serif;
     --font-titol2:    'airstrike', sans-serif;
@@ -212,8 +212,8 @@ a:hover { text-decoration: underline; }
 
 .hero-boto-principal {
     display: inline-block;
-    margin-top: 38px;
-    background: var(--fucsia-clar);
+    margin-top: 78px;
+    background: var(--fucsia);
     color: var(--blanc);
     padding: 10px 28px;
     font-size: 11px;
