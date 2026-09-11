@@ -47,29 +47,40 @@ const CONFIG = {
     CLIENTS:            "+1.200", CLIENTS2:            "Clientes satisfechos",
     ESTRELLES:          "5",      ESTRELLES2:          "Valoración en Google",
 
-    QUI_SOM:            "Quiénes somos...",
-    QUI_SOM_TIT:        "Pasión por las motos desde hace más de 20 años",
-    QUI_DESC:           "En el Taller AMR MotorBike somos especialistas en mantenimiento, reparación y restauración de motocicletas. Más de 20 años de experiencia en varias marcas del sector y en Sabadell, cuidando tu moto con la misma pasión con la que la conduces. Trabajamos con todas las marcas y modelos, desde scooters hasta motos de gran cilindrada.",
-    //+hero boto pri
+    QUI_SOM:            "Qui som...",
+    QUI_DESC1:          "Can Bellés és el fruit del projecte d'una empresa familiar que va obrir les portes l'any 2007 amb l'objectiu d'oferir als nostres clients un menjar de qualitat en un ambient agradable.",
+    QUI_DESC2:          "En la nostra carta trobareu plats típics de la cuina casolana mediterrània, que imprimeixen el caràcter de les nostres tapes, arrossos, carns i peixos a la brasa i les nostres postres casolanes.",
+    QUI_DESC3:          "Si ens vols venir a conéixer, estem al carrer",
     //-------------------------------------------------------------------------------------------------------------------------
 
 
-
     // 5. SERVEIS (graella)
-    QUE_FEM:            "Lo que hacemos",
-    QUE_FEM_SRV:        "Nuestros servicios",
+    QUE_FEM_SRV:        "La nostra cuina..",
+    QUE_FEM1:            "Des de el nostre petit racó al cor del Penedès, a Can Bellés fem una aposta clara per la cuina tradicional catalana i el producte de proximitat.",
+    QUE_FEM2:            "Amb la cuina de brasa com a bandera, oferim als nostres comensals una experiència gastronòmica de sabors arrelats a la nostra tradició.",
 
-    SERVEIS: [
-        { ico: "🔧", titol: "Mantenimiento general",    desc: "Cambio de aceite y filtro, limpieza de sistemas de admisión, ajustes y reglajes." },
-        { ico: "🛑", titol: "Frenos",                   desc: "Cambio de pastillas y discos de freno, mordazas, limpiezas circuito y cambio de líquidos." },
-        { ico: "⛓️", titol: "Transmisión y cadena",     desc: "Ajuste y lubricación de cadena, cambio del kit de arrastre y revisión de la caja de velocidades." },
-        { ico: "⚡", titol: "Sistema eléctrico",        desc: "Revisión y cambio de batería, diagnóstico con escáner ECU y reparación de luces y conexiones." },
-        { ico: "🏍️", titol: "Suspensión y dirección",   desc: "Servicio de suspensión delantera, ajuste de dirección y revisión de rodamientos y amortiguadores." },
-        { ico: "💨", titol: "Sistema de escape",        desc: "Revisión de fugas, reparación e instalación de escapes deportivos o personalizados." },
-        { ico: "🔘", titol: "Neumáticos",               desc: "Cambio de llantas, equilibrado, alineación y reparación de pinchazos." },
-        { ico: "⚙️", titol: "Motor",                    desc: "Ajuste general, reparaciones de todo tipos, fugas y reglajes, reparación de cilindro, pistón, válvulas y ajuste de distribución." },
-        { ico: "🎨", titol: "Personalización",          desc: "Instalación de accesorios." },
+ 
+
+
+
+
+    //-------------------------------------------------------------------------------------------------------------------------
+
+    MENUS_CANBELLES: [
+        { titol: "La nostra Carta",          img: "images/belles/carta.png",       accio: "obrirModalCarta()" },
+        { titol: "Els nostres Vins i Caves", img: "images/belles/vins.jpg",        accio: "obrirModalVins()" },
+        { titol: "Menú Diari",               img: "images/belles/carta.png",       accio: "obrirModalMenuDiari()" },
+        { titol: "Menú Cap de Setmana",      img: "images/belles/menucds.png",     accio: "obrirModalMenuCDS()" },
+        { titol: "Menús per a Grups",        img: "images/belles/menugrups.png",   accio: "obrirModalMenuGrups()" },
     ],
+
+    CAPTURES: {
+        carta:     "images/canbelles/captura-carta.jpg",
+        vins:      "images/canbelles/captura-vins.jpg",
+        menuDiari: "images/canbelles/captura-menu-diari.jpg",
+        menuCDS:   "images/canbelles/captura-menu-cds.jpg",
+        menuGrups: "images/canbelles/captura-menu-grups.jpg",
+    },
     //-------------------------------------------------------------------------------------------------------------------------
 
 

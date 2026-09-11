@@ -1,5 +1,5 @@
 /* ============================================================
-   MAIN.JS —  AMR MotorBike
+   MAIN.JS
    Construeix tota la pàgina a partir de CONFIG
    ============================================================ */
 
@@ -45,18 +45,6 @@
         }
 
 
-
-
-        const btnHamburguesa = document.querySelector('.navbar-hamburguesa');
-        const menu = document.querySelector('.navbar-menu');
-
-        btnHamburguesa.addEventListener('click', () => {
-            menu.classList.toggle('obert');
-        });
-
-        menu.querySelectorAll('a').forEach(a => {
-            a.addEventListener('click', () => menu.classList.remove('obert'));
-        });
 
         // Long press logo → login (per si un dia hi ha admin)
         const logo = document.querySelector('.navbar-logo img');
@@ -131,11 +119,10 @@
         if (seccions) {
 
             // Construeix les targetes de serveis a partir de CONFIG.SERVEIS
-            const targetesServeis = CONFIG.SERVEIS.map(s => `
-                <div class="servei-card">
-                    <div class="servei-ico">${s.ico}</div>
-                    <div class="servei-titol">${s.titol}</div>
-                    <div class="servei-desc">${s.desc}</div>
+            const cardsMenus = CONFIG.MENUS_CANBELLES.map(m => `
+                <div class="servei-card" onclick="${m.accio}" style="cursor:pointer; padding:0; overflow:hidden;">
+                    <img src="${CONFIG.ASSETS}${m.img}" alt="${m.titol}" style="width:100%; height:160px; object-fit:cover; display:block;">
+                    <div class="servei-titol" style="padding:14px 16px 16px;">${m.titol}</div>
                 </div>
             `).join('');
 
@@ -144,11 +131,15 @@
                 <!-- QUI SOM -->
                 <section class="seccio" id="qui-som">
                     <p class="seccio-eyebrow">${CONFIG.QUI_SOM}</p>
-                    <h2 class="seccio-titol">${CONFIG.QUI_SOM_TIT}</h2>
-                    <p class="seccio-text">${CONFIG.QUI_DESC}</p>
-                    <a href="tel:+34${CONFIG.MOBIL}" class="hero-boto-principal btn-balla"
+                    <p class="seccio-text">${CONFIG.QUI_DESC1}</p>
+                    <p class="seccio-text">${CONFIG.QUI_DESC2}</p>
+                    <p class="seccio-text">
+                        ${CONFIG.QUI_DESC3}
+                        <a href="${CONFIG.URL_MAPS}" target="_blank">${CONFIG.ADRECA}</a>.
+                    </p>
+                    <a href="tel:${CONFIG.TELEFON}" class="hero-boto-principal btn-balla"
                         style="display:inline-block; margin-top: 8px;">
-                        ${CONFIG.HERO_BOTO_PRI}
+                        ${CONFIG.TELEFON_ICO} ${CONFIG.TELEFON}
                     </a>
                 </section>
 
@@ -156,10 +147,11 @@
 
                 <!-- SERVEIS -->
                 <section class="seccio" id="serveis">
-                    <p class="seccio-eyebrow">${CONFIG.QUE_FEM}</p>
                     <h2 class="seccio-titol">${CONFIG.QUE_FEM_SRV}</h2>
-                    <div class="serveis-grid">
-                        ${targetesServeis}
+                    <p class="seccio-text">${CONFIG.QUE_FEM1}</p>
+                    <p class="seccio-text">${CONFIG.QUE_FEM2}</p>
+                   <div class="serveis-grid">
+                        ${cardsMenus}
                     </div>
                 </section>
 
