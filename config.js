@@ -23,8 +23,8 @@ const CONFIG = {
     BASE_WORKER:    "https://belles.altervector.workers.dev",
     URL_OFICIAL:    "https://www.canbelles.com",
     ASSETS:         "https://avsets.pages.dev/",
-    URL_MAPS:       "https://goo.gl/maps/gyQ2EcbeZWgQyzmn6",
-    URL_RESSENYES:  "https://g.page/r/gyQ2EcbeZWgQyzmn6/review",
+    URL_MAPS:       "https://www.google.com/maps/place/Restaurante+Can+Bell%C3%A9s/@41.3390178,1.6931701,2519m/data=!3m1!1e3!4m6!3m5!1s0x12a479f2cc28706d:0xa04c5f618f2a9ad5!8m2!3d41.3390178!4d1.6931701!16s%2Fg%2F1tdr5b77?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D",
+    URL_RESSENYES:  "https://www.google.com/maps/place/Restaurante+Can+Bell%C3%A9s/@41.3390178,1.6931701,2519m/data=!3m1!1e3!4m6!3m5!1s0x12a479f2cc28706d:0xa04c5f618f2a9ad5!8m2!3d41.3390178!4d1.6931701!16s%2Fg%2F1tdr5b77?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D",
 
     // 3. IMATGES 
     BACKGROUND:      "", // ← canviar en el css .html{}
