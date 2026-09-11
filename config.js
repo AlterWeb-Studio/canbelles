@@ -55,11 +55,11 @@ const CONFIG = {
 
     // 6. MAPS MENUS-------------------------------------------------------------------------------------------------------------------------
     MENUS_CANBELLES: [
-        { titol: "La nostra Carta",          desc: "",                                                                                                          img: "images/belles/carta.png",       accio: "obrirModalCarta()" },
-        { titol: "Els nostres Vins i Caves", desc: "",                                                                                                          img: "images/belles/vins.jpg",        accio: "obrirModalVins()" },
-        { titol: "Menú Diari",               desc: "De dilluns a divendres, de 13:00h a 15:30h, oferim un menú diari variat amb productes de temporada. Primer plat, segon plat i postres amb begudes i pa inclosos.", img: "images/belles/carta.png",       accio: "obrirModalMenuDiari()" },
-        { titol: "Menú Cap de Setmana",      desc: "Dissabtes de 13:00h fins a les 15:30h. Divendres i dissabtes de 20:45h fins a les 23:30h.",                  img: "images/belles/menucds.png",     accio: "obrirModalMenuCDS()" },
-        { titol: "Menús per a Grups",        desc: "A Can Bellés disposem de menús per a grups de totes les mides que s'adapten a les seves necessitats.",       img: "images/belles/menugrups.png",   accio: "obrirModalMenuGrups()" },
+        { id: "carta",    titol: "La nostra Carta",          desc: "",                                                                                                          img: "images/belles/carta.png",       accio: "obrirModalCarta()" },
+        { id: "vins",     titol: "Els nostres Vins i Caves", desc: "",                                                                                                          img: "images/belles/vins.jpg",        accio: "obrirModalVins()" },
+        { id: "menus",    titol: "Menú Diari",               desc: "De dilluns a divendres, de 13:00h a 15:30h...", img: "images/belles/carta.png",       accio: "obrirModalMenuDiari()" },
+        { id: "",         titol: "Menú Cap de Setmana",      desc: "Dissabtes de 13:00h...",                  img: "images/belles/menucds.png",     accio: "obrirModalMenuCDS()" },
+        { id: "",         titol: "Menús per a Grups",        desc: "A Can Bellés disposem de menús...",       img: "images/belles/menugrups.png",   accio: "obrirModalMenuGrups()" },
     ],
 
     CAPTURES: {

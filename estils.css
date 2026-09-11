@@ -290,7 +290,7 @@ a:hover { text-decoration: underline; }
      /*border: 1px solid rgba(255, 255, 255, 0.2);    xxx
    border-radius: 14px;*/
 
-
+ scroll-margin-top: 120px; /* Ajusta los píxeles según la altura de tu navbar */
 
     /*background: var(--negre-card);*/
     border: 1px solid rgba(255,255,255,0.06);
@@ -688,7 +688,7 @@ a:hover { text-decoration: underline; }
     .barra-fixa-pc .boto-fix-pc.whatsapp { background: #25D366; }
 
     /* Com que la franja ocupa espai a dalt, cal baixar la navbar */
-    .navbar { top: 32px; }
+    .navbar { top: 2px; }
 }
 .stat-google {
     text-decoration: none;

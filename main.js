@@ -119,7 +119,7 @@
         if (seccions) {
 
             // Construeix les targetes de serveis a partir de CONFIG.SERVEIS
-            const cardsMenus = CONFIG.MENUS_CANBELLES.map(m => `
+           /* const cardsMenus = CONFIG.MENUS_CANBELLES.map(m => `
                 <div class="servei-card" onclick="${m.accio}" style="cursor:pointer; padding:0; overflow:hidden;">
                     <img src="${CONFIG.ASSETS}${m.img}" alt="${m.titol}" style="width:100%; height:160px; object-fit:cover; display:block;">
                     <div style="padding:14px 16px 16px;">
@@ -127,7 +127,18 @@
                         ${m.desc ? `<div class="servei-desc">${m.desc}</div>` : ''}
                     </div>
                 </div>
+            `).join('');*/
+
+            const cardsMenus = CONFIG.MENUS_CANBELLES.map(m => `
+                <div class="servei-card" id="${m.id || ''}" onclick="${m.accio}" style="cursor:pointer; padding:0; overflow:hidden;">
+                    <img src="${CONFIG.ASSETS}${m.img}" alt="${m.titol}" style="width:100%; height:160px; object-fit:cover; display:block;">
+                     <div style="padding:14px 16px 16px;">
+                        <div class="servei-titol">${m.titol}</div>
+                         ${m.desc ? `<div class="servei-desc">${m.desc}</div>` : ''}
+                </div>
+                </div>
             `).join('');
+
 
             seccions.innerHTML = `
 
@@ -147,7 +158,7 @@
                 </section>
 
                 <!-- SERVEIS -->
-                <section class="seccio" id="menus">
+                <section class="seccio">
                     <h2 class="seccio-titol">${CONFIG.QUE_FEM_SRV}</h2>
                     <p class="seccio-text">${CONFIG.QUE_FEM1}</p>
                     <p class="seccio-text">${CONFIG.QUE_FEM2}</p>
