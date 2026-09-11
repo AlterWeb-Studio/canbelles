@@ -18,7 +18,7 @@ class NavComu extends HTMLElement {
                     <li><a href="#menus">${CONFIG.NAV_MENUS}</a></li>
                     <li><a href="#carta">${CONFIG.NAV_CARTA}</a></li>
                     <li><a href="#vins">${CONFIG.NAV_VINS}</a></li>
-                    <li><a href="#reserves">${CONFIG.NAV_RESERVES}</a></li>
+                    <li><a href="#contacte">${CONFIG.NAV_RESERVES}</a></li>
                 </ul>
             </nav>
         `;
