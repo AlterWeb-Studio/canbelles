@@ -50,23 +50,23 @@ const CONFIG = {
     COMANDES:           "Comandes per emportar",
     COMANDES1:          "Vols gaudir de la nostra carta fora del Restaurant?",
     COMANDES2:          "Cap problema, fes ara la teva comanda i passa a recollir-la quan et vagi millor.",
-    COMANDES3:          "Els teus plats preferits estaran preparats i llestos per endur-te’l’s i gaudir-los allà on vulguis.",
+    COMANDES3:          "Els teus plats preferits estaran preparats i llestos per endur-te’ls i gaudir-los allà on vulguis.",
     COMANDES4:          "No fem entregues a domicili.",
 //-------------------------------------------------------------------------------------------------------------------------
 
     // 5. SERVEIS (graella)
     QUE_FEM_SRV:        "La nostra cuina..",
-    QUE_FEM1:            "Des de el nostre petit racó al cor del Penedès, a Can Bellés fem una aposta clara per la cuina tradicional catalana i el producte de proximitat.",
+    QUE_FEM1:            "Des del nostre petit racó al cor del Penedès, a Can Bellés fem una aposta clara per la cuina tradicional catalana i el producte de proximitat.",
     QUE_FEM2:            "Amb la cuina de brasa com a bandera, oferim als nostres comensals una experiència gastronòmica de sabors arrelats a la nostra tradició.",
     //-------------------------------------------------------------------------------------------------------------------------
 
     // 6. MAPS MENUS-------------------------------------------------------------------------------------------------------------------------
     MENUS_CANBELLES: [
-        { id: "carta",    titol: "La nostra Carta",          desc: "",                                                                                                          img: "images/belles/carta.png",       accio: "obrirModalCarta()" },
-        { id: "vins",     titol: "Els nostres Vins i Caves", desc: "",                                                                                                          img: "images/belles/vins.jpg",        accio: "obrirModalVins()" },
+        { id: "carta",    titol: "La nostra Carta",          desc: "",                                                                                                                        img: "images/belles/carta.png",       accio: "obrirModalCarta()" },
+        { id: "vins",     titol: "Els nostres Vins i Caves", desc: "",                                                                                                                        img: "images/belles/vins.jpg",        accio: "obrirModalVins()" },
         { id: "menus",    titol: "Menú Diari",               desc: "Oferim un menú diari variat amb productes de temporada.<br>Primer plat, segón plat i postres amb begudes i pa inclosos.", img: "images/belles/carta.png",       accio: "obrirModalMenuDiari()" },
-        { id: "",         titol: "Menú Cap de Setmana",      desc: "Consulta el horari i menú de cap de setmana.",                  img: "images/belles/menucds.png",     accio: "obrirModalMenuCDS()" },
-        { id: "",         titol: "Menús per a Grups",        desc: "A Can Bellés disposem de menús per a grups de totes les mides que s’adapten a les seves necesitats.",       img: "images/belles/menugrups.png",   accio: "obrirModalMenuGrups()" },
+        { id: "",         titol: "Menú Cap de Setmana",      desc: "Consulta el horari i menú de cap de setmana.",                                                                            img: "images/belles/menucds.png",     accio: "obrirModalMenuCDS()" },
+        { id: "",         titol: "Menús per a Grups",        desc: "A Can Bellés disposem de menús per a grups de totes les mides que s’adapten a les seves necesitats.",                     img: "images/belles/menugrups.png",   accio: "obrirModalMenuGrups()" },
     ],
 
     CAPTURES: {
