@@ -153,7 +153,7 @@
                     </p>
                     <a href="tel:${CONFIG.TELEFON}" class="hero-boto-principal btn-balla"
                         style="display:inline-block; margin-top: 8px;">
-                        ${CONFIG.TELEFON_ICO} Trucan's}
+                        ${CONFIG.TELEFON_ICO} Trucan's
                     </a>
                 </section>
 
