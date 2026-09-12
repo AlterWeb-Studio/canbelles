@@ -153,7 +153,7 @@
                     </p>
                     <a href="tel:${CONFIG.TELEFON}" class="hero-boto-principal btn-balla"
                         style="display:inline-block; margin-top: 8px;">
-                        ${CONFIG.TELEFON_ICO} Trucan's}
+                        ${CONFIG.TELEFON_ICO} Trucan's
                     </a>
                 </section>
 
@@ -167,6 +167,18 @@
                     </div>
                 </section>
 
+                 <!-- PER EMPORTAR -->
+                <section class="seccio" id="per-emportar">
+                    <h2 class="seccio-titol">${CONFIG.COMANDES}</h2>
+                    <p class="seccio-text">${CONFIG.COMANDES1}</p>
+                    <p class="seccio-text">${CONFIG.COMANDES2}</p>
+                    <p class="seccio-text">${CONFIG.COMANDES3}</p>
+                    <p class="seccio-text">${CONFIG.COMANDES4}</p>
+                    <a href="tel:${CONFIG.TELEFON}" class="hero-boto-principal btn-balla"
+                        style="display:inline-block; margin-top: 8px;">
+                        ${CONFIG.TELEFON_ICO} Trucan's
+                    </a>
+                </section>
 
                 <!-- CONTACTE -->
                 <section class="seccio" id="contacte">

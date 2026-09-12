@@ -37,6 +37,7 @@ const CONFIG = {
     NAV_MENUS:        "Menús",
     NAV_CARTA:        "Carta",
     NAV_VINS:         "Vins i Caves",
+    NAV_COMANDES:     "Per emportar",
     NAV_RESERVES:     "Reserves",
 
     HERO_BOTO:      "Qui som...",
@@ -45,7 +46,13 @@ const CONFIG = {
     QUI_DESC1:          "Can Bellés és el fruit del projecte d'una empresa familiar que va obrir les portes l'any 2007 amb l'objectiu d'oferir als nostres clients un menjar de qualitat en un ambient agradable.",
     QUI_DESC2:          "En la nostra carta trobareu plats típics de la cuina casolana mediterrània, que imprimeixen el caràcter de les nostres tapes, arrossos, carns i peixos a la brasa i les nostres postres casolanes.",
     QUI_DESC3:          "Si ens vols venir a conéixer, estem al carrer",
-    //-------------------------------------------------------------------------------------------------------------------------
+ 
+    COMANDES:           "Comandes per emportar",
+    COMANDES1:          "Vols gaudir de la nostra carta fora del Restaurant?",
+    COMANDES2:          "Cap problema, fes ara la teva comanda i passa a recollir-la quan et vagi millor.",
+    COMANDES3:          "Els teus plats preferits estaran preparats i llestos per endur-te’l’s i gaudir-los allà on vulguis.",
+    COMANDES4:          "No fem entregues a domicili.",
+//-------------------------------------------------------------------------------------------------------------------------
 
     // 5. SERVEIS (graella)
     QUE_FEM_SRV:        "La nostra cuina..",
@@ -57,9 +64,9 @@ const CONFIG = {
     MENUS_CANBELLES: [
         { id: "carta",    titol: "La nostra Carta",          desc: "",                                                                                                          img: "images/belles/carta.png",       accio: "obrirModalCarta()" },
         { id: "vins",     titol: "Els nostres Vins i Caves", desc: "",                                                                                                          img: "images/belles/vins.jpg",        accio: "obrirModalVins()" },
-        { id: "menus",    titol: "Menú Diari",               desc: "De dilluns a divendres, de 13:00h a 15:30h...", img: "images/belles/carta.png",       accio: "obrirModalMenuDiari()" },
-        { id: "",         titol: "Menú Cap de Setmana",      desc: "Dissabtes de 13:00h...",                  img: "images/belles/menucds.png",     accio: "obrirModalMenuCDS()" },
-        { id: "",         titol: "Menús per a Grups",        desc: "A Can Bellés disposem de menús...",       img: "images/belles/menugrups.png",   accio: "obrirModalMenuGrups()" },
+        { id: "menus",    titol: "Menú Diari",               desc: "Oferim un menú diari variat amb productes de temporada.<br>Primer plat, segón plat i postres amb begudes i pa inclosos.", img: "images/belles/carta.png",       accio: "obrirModalMenuDiari()" },
+        { id: "",         titol: "Menú Cap de Setmana",      desc: "Consulta el horari i menú de cap de setmana.",                  img: "images/belles/menucds.png",     accio: "obrirModalMenuCDS()" },
+        { id: "",         titol: "Menús per a Grups",        desc: "A Can Bellés disposem de menús per a grups de totes les mides que s’adapten a les seves necesitats.",       img: "images/belles/menugrups.png",   accio: "obrirModalMenuGrups()" },
     ],
 
     CAPTURES: {
