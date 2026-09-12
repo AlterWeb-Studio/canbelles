@@ -70,11 +70,11 @@ const CONFIG = {
     ],
 
     CAPTURES: {
-        carta:     "images/canbelles/captura-carta.jpg",
-        vins:      "images/canbelles/captura-vins.jpg",
-        menuDiari: "images/canbelles/captura-menu-diari.jpg",
-        menuCDS:   "images/canbelles/captura-menu-cds.jpg",
-        menuGrups: "images/canbelles/captura-menu-grups.jpg",
+        carta:     "images/belles/captures/carta.png",
+        vins:      "images/belles/captures/vins.png",
+        menuDiari: "images/belles/captures/menu.png",
+        menuCDS:   "images/belles/captures/menu.png",
+        menuGrups: "images/belles/captures/menu.png",
     },
     //------------------------------------------------------------------------------------------------------------------------
 
