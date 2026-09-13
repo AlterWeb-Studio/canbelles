@@ -18,7 +18,7 @@ const CONFIG = {
     //-------------------------------------------------------------------------------------------------------------------------
 
     // 2. RUTES
-    REPO_URL:       "https://altervector.github.io/amrmotorbike/",
+    REPO_URL:       "https://alterweb-studio.github.io/canbelles/",
     BASE_URL:       "./",
     BASE_WORKER:    "https://belles.altervector.workers.dev",
     URL_OFICIAL:    "https://www.canbelles.com",
