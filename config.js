@@ -89,5 +89,5 @@ const CONFIG = {
     //-------------------------------------------------------------------------------------------------------------------------
 
     // 8. SEGURETAT
-    SITIOS_SEGUROS: ["alterwebstudio.com", "altervector.com", "pages.dev", "altervector.github.io", "amrmotorbike.es","amrmotorbike.com", "localhost", "127.0.0.1"],
+    SITIOS_SEGUROS: ["alterwebstudio.com", "alterwebstudio.com", "pages.dev", "alterweb-studio.github.io", "localhost", "127.0.0.1"],
 };
