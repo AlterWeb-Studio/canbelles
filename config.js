@@ -1,3 +1,7 @@
+/* ============================================================
+   CONFIG.JS - Can Bellès (pàgina principal)
+   ============================================================ */
+
 const CONFIG = {
 
     // 1. NEGOCI
@@ -11,7 +15,8 @@ const CONFIG = {
     WHATSAPP:       "https://wa.me/",       WHATSAPP_LABEL:  "💬 Escríbenos por WhatsApp",
     EMAIL:          "info@canbelles.com",   EMAIL_LABEL:     "e-Mail",       EMAIL_ICO: "✉️",
     ADRECA:         "C/Amalia Soler, 179  08720  Vilafranca del Penedès",
-                                            ADRECA_LABEL: "Adreça",       ADRECA_ICO: "📍",
+       ADRECA_LABEL: "Adreça",
+       ADRECA_ICO: "📍",
     INSTAGRAM:      "https://www.instagram.com/canbelles/",
     FACEBOOK:       "",
     EMAIL_SUPORT:   "info@alterwebstudio.com",
