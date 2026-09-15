@@ -153,7 +153,7 @@
                     </p>
                     <a href="tel:${CONFIG.TELEFON}" class="hero-boto-principal btn-balla"
                         style="display:inline-block; margin-top: 8px;">
-                        ${CONFIG.TELEFON_ICO:} Trucan's
+                        ${CONFIG.TELEFON_ICO} Trucan's
                     </a>
                 </section>
 
@@ -176,7 +176,7 @@
                     <p class="seccio-text">${CONFIG.COMANDES4}</p>
                     <a href="tel:${CONFIG.TELEFON}" class="hero-boto-principal btn-balla"
                         style="display:inline-block; margin-top: 8px;">
-                        ${CONFIG.TELEFON_ICO:} Trucan's
+                        ${CONFIG.TELEFON_ICO} Trucan's
                     </a>
                 </section>
 
@@ -194,7 +194,7 @@
                             </div>
                         </div>
                         <div class="contacte-item">
-                            <div class="contacte-ico">${CONFIG.TELEFON_ICO:}</div>
+                            <div class="contacte-ico">${CONFIG.TELEFON_ICO}</div>
                             <div>
                                 <div class="contacte-label">${CONFIG.TELEFON_LABEL}</div>
                                 <div class="contacte-valor">

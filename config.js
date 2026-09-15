@@ -45,13 +45,18 @@ const CONFIG = {
     NAV_COMANDES:     "Per emportar",
     NAV_RESERVES:     "Reserves",
 
+                    //
+    
     HERO_BOTO:      "Qui som...",
+
+
 
     QUI_SOM:            "Qui som...",
     QUI_DESC1:          "Can Bellés és el fruit del projecte d'una empresa familiar que va obrir les portes l'any 2007 amb l'objectiu d'oferir als nostres clients un menjar de qualitat en un ambient agradable.",
     QUI_DESC2:          "En la nostra carta trobareu plats típics de la cuina casolana mediterrània, que imprimeixen el caràcter de les nostres tapes, arrossos, carns i peixos a la brasa i les nostres postres casolanes.",
     QUI_DESC3:          "Si ens vols venir a conéixer, estem al carrer",
  
+
     COMANDES:           "Comandes per emportar",
     COMANDES1:          "Vols gaudir de la nostra carta fora del Restaurant?",
     COMANDES2:          "Cap problema, fes ara la teva comanda i passa a recollir-la quan et vagi millor.",
@@ -59,7 +64,10 @@ const CONFIG = {
     COMANDES4:          "No fem entregues a domicili.",
 //-------------------------------------------------------------------------------------------------------------------------
 
-    // 5. SERVEIS (graella)
+    
+
+
+// 5. SERVEIS (graella)
     QUE_FEM_SRV:        "La nostra cuina..",
     QUE_FEM1:            "Des del nostre petit racó al cor del Penedès, a Can Bellés fem una aposta clara per la cuina tradicional catalana i el producte de proximitat.",
     QUE_FEM2:            "Amb la cuina de brasa com a bandera, oferim als nostres comensals una experiència gastronòmica de sabors arrelats a la nostra tradició.",
