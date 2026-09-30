@@ -72,7 +72,7 @@ COMANDES4:          "No fem entregues a domicili.",
 
 
 // 5. SERVEIS (graella)
-QUE_FEM_SRV:        "La nostra cuina..",
+QUE_FEM_SRV:        "La nostra cuina...",
 QUE_FEM1:            "Des del nostre petit racó al cor del Penedès, a Can Bellés fem una aposta clara per la cuina tradicional catalana i el producte de proximitat.",
 QUE_FEM2:            "Amb la cuina de brasa com a bandera, oferim als nostres comensals una experiència gastronòmica de sabors arrelats a la nostra tradició.",
 //-------------------------------------------------------------------------------------------------------------------------
