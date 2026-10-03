@@ -145,10 +145,10 @@
                 <!-- QUI SOM -->
                 <section class="seccio" id="qui-som">
                     <h2 class="seccio-titol">${CONFIG.QUI_SOM}</h2>
-                    <p class="seccio-text">${CONFIG.QUI_DESC1}</p>
-                    <p class="seccio-text">${CONFIG.QUI_DESC2}</p>
+                    <p class="seccio-text">${CONFIG.QUI_SOM_DESC1}</p>
+                    <p class="seccio-text">${CONFIG.QUI_SOM_DESC2}</p>
                     <p class="seccio-text">
-                        ${CONFIG.QUI_DESC3}
+                        ${CONFIG.QUI_SOM_DESC3}
                         <a href="${CONFIG.URL_MAPS}" target="_blank">${CONFIG.ADRECA}</a>.
                     </p>
                     <a href="tel:${CONFIG.TELEFON}" class="hero-boto-principal btn-balla"

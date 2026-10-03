@@ -56,9 +56,9 @@ HERO_BOTO:      "Qui som...",
 
 
 QUI_SOM:            "Qui som...",
-QUI_DESC1:          "Can Bellés és el fruit del projecte d'una empresa familiar que va obrir les portes l'any 2007 amb l'objectiu d'oferir als nostres clients un menjar de qualitat en un ambient agradable.",
-QUI_DESC2:          "En la nostra carta trobareu plats típics de la cuina casolana mediterrània, que imprimeixen el caràcter de les nostres tapes, arrossos, carns i peixos a la brasa i les nostres postres casolanes.",
-QUI_DESC3:          "Si ens vols venir a conéixer, estem al carrer",
+QUI_SOM_DESC1:          "Can Bellés és el fruit del projecte d'una empresa familiar que va obrir les portes l'any 2007 amb l'objectiu d'oferir als nostres clients un menjar de qualitat en un ambient agradable.",
+QUI_SOM_DESC2:          "En la nostra carta trobareu plats típics de la cuina casolana mediterrània, que imprimeixen el caràcter de les nostres tapes, arrossos, carns i peixos a la brasa i les nostres postres casolanes.",
+QUI_SOM_DESC3:          "Si ens vols venir a conéixer, estem al carrer",
 
 
 COMANDES:           "Comandes per emportar",
